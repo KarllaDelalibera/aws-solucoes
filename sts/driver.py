@@ -11,7 +11,7 @@ class Driver():
             name_session_role (string): Nome da sessão assumida.
 
         Returns:
-            [type]: Uma sessão pré-autenticada.
+            Uma sessão pré-autenticada.
         """        
         sts_client = boto3.client('sts', region_name='us-east-1')
         role = sts_client.assume_role(RoleArn=role_arn, RoleSessionName=name_session_role)
