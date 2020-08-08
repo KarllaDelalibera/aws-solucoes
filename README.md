@@ -20,7 +20,7 @@ No terminal, clone o projeto:
 $ git clone https://github.com/KarllaDelalibera/aws-solucoes.git
 ```
 
-Dentro da pasta aws-solucoes, execute o seguinte comando no terminal:
+Dentro da pasta aws-solucoes, execute os seguintes comandos no terminal:
 
 ```bash
 $ python -m venv .venv
