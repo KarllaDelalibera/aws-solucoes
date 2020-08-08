@@ -12,9 +12,15 @@ O objetivo desse repositório é disponibilizar algumas soluções simples, mas 
 - [ ] Funções úteis para o serviço: S3  
 
  
-## Instalação
+## Como utilizar
 
-Ao executar os comandos abaixo, você irá configurar um ambiente virtual e instalar as dependências necessárias:
+No terminal, clone o projeto:
+
+```
+git clone https://github.com/KarllaDelalibera/aws-solucoes.git
+```
+
+Dentro da pasta aws-solucoes, execute o seguinte comando no terminal:
 
 ```bash
 $ python -m venv .venv
