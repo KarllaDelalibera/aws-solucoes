@@ -16,7 +16,7 @@ O objetivo desse repositório é disponibilizar algumas soluções simples, mas 
 
 No terminal, clone o projeto:
 
-```
+```bash
 git clone https://github.com/KarllaDelalibera/aws-solucoes.git
 ```
 
