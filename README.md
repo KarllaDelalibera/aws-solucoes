@@ -17,7 +17,7 @@ O objetivo desse repositório é disponibilizar algumas soluções simples, mas 
 No terminal, clone o projeto:
 
 ```bash
-git clone https://github.com/KarllaDelalibera/aws-solucoes.git
+$ git clone https://github.com/KarllaDelalibera/aws-solucoes.git
 ```
 
 Dentro da pasta aws-solucoes, execute o seguinte comando no terminal:
