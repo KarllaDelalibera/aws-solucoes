@@ -2,8 +2,7 @@ import boto3
 
 
 class Driver():
-    
-    
+
     def assumed_role_session(self, role_arn, name_session_role):
         """Função responsável por assumir uma role com base no ARN,
            e retornará uma sessão pré-autenticada.
