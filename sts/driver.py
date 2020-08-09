@@ -25,4 +25,3 @@ class Driver:
                                         aws_secret_access_key=aws_secret_access_key,
                                         aws_session_token=aws_session_token)
         return session
-
