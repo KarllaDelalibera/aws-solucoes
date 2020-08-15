@@ -12,7 +12,7 @@ class Driver:
         Keyword Arguments:
             dtype {dict} -- Tipo de cada coluna. (default: {None})
         Returns:
-            dataframe -- Retorna um dataframe com as informações do arquivo,
+            dataframe -- Retorna um dataframe com as informações do arquivo.
         """
         obj = conn.get_object(Bucket=bucket, Key=path)
         data = pd.read_csv(obj["Body"], sep=",", low_memory=False, dtype=dtype)
