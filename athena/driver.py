@@ -23,6 +23,7 @@ class Driver:
     def athena_check_query_status(self, conn, id_query, counter=900):
         """Verifica o status de consulta no athena.
         Arguments:
+            conn {}: boto3 client athena.
             QueryExecutionId {str} -- id da query.
 
         Keyword Arguments:
