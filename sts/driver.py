@@ -2,20 +2,18 @@ import boto3
 
 
 class Driver:
-    def assumed_role_session(self, role_arn, name_session_role):
+    def assumed_role_session(self, conn, role_arn, name_session_role):
         """Função responsavel por assumir uma role com base no ARN,
            e retornará uma sessao pre-autenticada.
         Args:
+            conn (): boto3 client sts.
             role_arn (string): ARN da role na qual deseja assumir.
             name_session_role (string): Nome da sessão assumida.
 
         Returns:
             Uma sessao pre-autenticada.
         """
-        sts_client = boto3.client("sts", region_name="us-east-1")
-        role = sts_client.assume_role(
-            RoleArn=role_arn, RoleSessionName=name_session_role
-        )
+        role = conn.assume_role(RoleArn=role_arn, RoleSessionName=name_session_role)
         credentials_role = role["Credentials"]
 
         aws_access_key_id = credentials_role["AccessKeyId"]
