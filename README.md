@@ -9,8 +9,8 @@ O objetivo desse repositório é disponibilizar algumas soluções simples, mas 
 ## Soluções já disponíveis
 
 - [X] Funções úteis para o serviço: STS (Security Token Service)
-- [ ] Funções úteis para o serviço: Athena
-- [ ] Funções úteis para o serviço: S3
+- [X] Funções úteis para o serviço: Athena
+- [X] Funções úteis para o serviço: S3
 
 
 ## Como utilizar
