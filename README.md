@@ -1,4 +1,4 @@
-[![python](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/)
+[![python](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 
 # Repositório destinado a criação de funções úteis para utilização de serviços AWS via Python
@@ -29,5 +29,11 @@ $ source .venv/bin/activate
 $ pip install -r requirements.txt
 $ pre-commit install
 ```
+## Testes e cobertura
 
+Para rodar os testes e vizualizar o relatório de cobertura, execute:
+
+```bash
+$ pytest -x --cov=s3 --cov-report=term-missing --cov-report=html:htmlcov
+```
 > Status do Projeto: Em desenvolvimento :construction:
