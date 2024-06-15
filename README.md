@@ -36,4 +36,3 @@ Para rodar os testes e vizualizar o relatório de cobertura, execute:
 ```bash
 $ pytest -x --cov=s3 --cov=athena --cov=sts --cov-report=term-missing --cov-report=html:htmlcov
 ```
-> Status do Projeto: Em desenvolvimento :construction:
